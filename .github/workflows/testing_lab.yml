@@ -7,7 +7,7 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        - name: check dir
+        - name: checkout
         - uses: actions/checkout@v2
 
         - name: install dependencies
