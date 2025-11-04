@@ -1,9 +1,9 @@
 name: testing_process
 on: 
-  push
+  push:
     branches: main
 jobs:
-  test
+  test:
       runs-on: ubuntu-latest
 
       steps:
